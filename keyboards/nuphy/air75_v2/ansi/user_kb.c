@@ -20,6 +20,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #include "usb_main.h"
 #include "mcu_pwr.h"
 #include "color.h"
+#include "colormusic.h"
 
 kb_config_t     kb_config;
 DEV_INFO_STRUCT dev_info = {

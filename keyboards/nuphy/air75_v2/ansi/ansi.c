@@ -259,6 +259,7 @@ void keyboard_post_init_kb(void) {
     dial_sw_fast_scan();
     load_eeprom_data();
     keyboard_post_init_user();
+    rgb_matrix_mode(RGB_MATRIX_CUSTOM_colormusic);
 }
 
 /* qmk housekeeping task */

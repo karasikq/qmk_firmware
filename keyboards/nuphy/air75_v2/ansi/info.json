@@ -81,7 +81,7 @@
           "multisplash": true,
           "solid_splash": true,
           "solid_multisplash": true,
-          "my_cool_effect2": true
+          "colormusic": true
         },
         "layout": [
             {"matrix": [0, 0], "x": 0, "y": 0, "flags": 4},
