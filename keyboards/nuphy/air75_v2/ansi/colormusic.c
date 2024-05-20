@@ -2,7 +2,7 @@
 #include "print.h"
 #include "raw_hid.h"
 
-vu_meter_t vu_meter = {.smooth = 0.3f, .average_gain = 1.5f, .average_attenuation = 0.01f, .rms_left = 0.0f, .rms_right = 0.0f, .average_level = 0.5f, .max_level = 1.0f};
+vu_meter_t vu_meter = {.smooth = 0.5f, .average_gain = 1.6f, .average_attenuation = 0.01f, .rms_left = 0.0f, .rms_right = 0.0f, .average_level = 0.5f, .max_level = 1.0f};
 
 handshake_t handshake = {.status = 0, .last_value = 0};
 
